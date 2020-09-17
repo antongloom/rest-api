@@ -1,5 +1,5 @@
 <template lang="pug">
-  div aff
+  div Здесь будем прогать))
 </template>
 
 <script>

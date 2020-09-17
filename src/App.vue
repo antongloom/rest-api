@@ -1,17 +1,18 @@
 <template lang="pug">
   v-app
-   div efwe
+    Home
+      router-view
 </template>
 
 <script>
-//import HelloWorld from './components/HelloWorld';
+import Home from '@/views/Home'
 
 export default {
   name: 'App',
 
-  /*components: {
-    HelloWorld,
-  },*/
+  components: {
+    Home,
+  },
 
   data: () => ({
     //
